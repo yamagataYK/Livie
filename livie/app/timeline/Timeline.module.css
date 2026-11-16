@@ -1,4 +1,14 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+    padding: 24px 20px 16px;
+    background: #1A1A1A;
+}
+
 .title {
+    margin: 0 auto 20px;
     font-size: 24px;
-    color: aqua;
+    line-height: 1.25;
+    color: #ffffff;
 }

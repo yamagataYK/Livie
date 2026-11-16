@@ -1,0 +1,42 @@
+.nav {
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 8px;
+    width: 100%;
+    padding: 10px 12px 14px;
+    margin-top: auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    flex: 1;
+    min-width: 0;
+    color: #FEFEFE;
+    text-decoration: none;
+}
+
+.icon {
+    font-size: 20px;
+    line-height: 1;
+}
+
+.label {
+    font-size: 10px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    white-space: nowrap;
+}
